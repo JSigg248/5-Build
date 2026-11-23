@@ -1,4 +1,4 @@
-/* CSS by Christina Carrasquilla, iteration by */
+/* CSS by Christina Carrasquilla, iteration 2 by John Siggers */
 
 /* ===== Color Palette ===== 
 
@@ -109,3 +109,55 @@ footer {
 /* target the nav and display it flex, spaceed around */
 /* target the .card-row to display flex */
 /* target the sections in .card-row witha width for 30% */
+
+@media screen and (min-width: 800px) {
+
+body {
+    grid-template-columns: 1fr 300px;
+    min-width:500px;
+}
+
+header {
+    padding: 1.5rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 0.5rem;
+    color: #94a3b8;
+}
+
+nav {
+    background-color: #020617;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #e2e8f0;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: block;
+    border-left: 4px solid #38bdf8;
+    margin: .25rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+}
