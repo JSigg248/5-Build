@@ -131,8 +131,8 @@ footer {
 
 .social-media i {
     padding: .5px; 
-    transition: all 0.4s ease-in-out; 
-    text-shadow: 0px 3px 4px rgba(54, 69, 79, 0.9);
+    transition: 0.4s ease-in-out; 
+    text-shadow: 0px 3px 4px rgba(54, 69, 79, 0.3);
     cursor: pointer;
     color:  #38bdf8;
     text-decoration: none;
@@ -196,7 +196,9 @@ main {
     padding: 1rem;
 }
 
-
+.card-row {
+    width: 30%;
+}
 
 
 
