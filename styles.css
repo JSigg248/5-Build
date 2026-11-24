@@ -124,7 +124,7 @@ a:hover {
 }
 
 footer {
-    background-color: #020617;
+    background-color: #1e293b;
     text-align: center;
     padding: 1rem;
     margin-top: 1rem;
@@ -230,7 +230,16 @@ main {
 
 .card-row {
     display: flex;
+    justify-content: space-between;
+    }
+
+.card-row > section {
     width: 30%;
+    flex:1 1 260px;
+    background-color: #1e293b;
+    margin: .5rem;
+    padding: .5rem;
+    border-left: 4px solid #38bdf8;
 }
 
 .social-media {
@@ -258,6 +267,11 @@ main {
     padding: .2rem;
     text-align: center;
     width: 100%;
+}
+
+aside {
+    align-content: center;
+    place-self: center;
 }
 
 footer {
