@@ -164,6 +164,7 @@ footer {
     cursor: pointer;
     color:  #38bdf8;
     text-decoration: none;
+    font-size: 25px;
     
 }
 
@@ -217,7 +218,6 @@ nav ul {
 
 nav a {
     color: #e2e8f0;
-    text-decoration: none;
     padding: 0.5rem;
     display: block;
     border-left: 4px solid #38bdf8;
@@ -267,11 +267,14 @@ main {
     padding: .2rem;
     text-align: center;
     width: 100%;
+    border-left: none;
 }
 
 aside {
     align-content: center;
-    place-self: center;
+    margin-right: 10px;
+    width: 80%;
+    justify-self: center;
 }
 
 footer {
